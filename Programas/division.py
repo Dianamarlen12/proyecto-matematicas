@@ -1,0 +1,6 @@
+print ("Dime un numero")
+primerNumero = int(input())
+print ("Dime otro numero")
+segundoNumero = int(input())
+print ("Su división es")
+print (primerNumero / segundoNumero)
