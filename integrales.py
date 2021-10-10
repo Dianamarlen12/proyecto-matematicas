@@ -1,1 +1,1 @@
-print ("Esto es una intehral")
+print ("Esto es una integral")
