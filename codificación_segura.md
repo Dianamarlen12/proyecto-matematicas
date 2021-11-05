@@ -25,3 +25,6 @@ Principios de codificación segura
 * Manejo de errores y LOgs.
 * Manejo de memoria.
 * Estandarización y reutilización de funciones de seguridad.
+
+![image](https://user-images.githubusercontent.com/50559771/140587455-5525507f-7033-454d-8371-8be47f83e225.png)
+
