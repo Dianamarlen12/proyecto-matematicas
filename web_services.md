@@ -30,3 +30,5 @@ UDDI es un estándar XML para describir, publicar y encontrar servicios web. Es 
 * El cliente, basándose en la descripción descrita por el WSDL, envía un request para un servicio particular al Web Service Listener, que se encarga de recibir y enviar los mensajes en formato SOAP.
 * El Web Service analiza el mensaje SOAP del request e invoca una operación particular en la aplicación para procesar el request. El resultado se escribe de nuevo en SOAP en forma de respuesta y se envía al cliente.
 * El cliente analiza el mensaje de respuesta SOAP y lo interpreta o genera un error si ha habido alguno.
+
+![image](https://user-images.githubusercontent.com/50559771/140587526-5c7fe684-3232-4eca-bbd4-13c7187a057d.png)
