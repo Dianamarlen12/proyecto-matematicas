@@ -7,7 +7,13 @@ a través de un conjunto de reglas.
 Así pues, podemos hablar de una API como una especificación formal que establece cómo un módulo de un software se comunica o interactúa con otro para cumplir una o 
 muchas funciones. Todo dependiendo de las aplicaciones que las vayan a utilizar, y de los permisos que les dé el propietario de la API a los desarrolladores de terceros.
 
-USO DE LAS API'S DE TERCEROS Y PROPIOS
+# Beneficios que tienen las API's
+
+* Permite que los clientes accedan a los datos con una API que les ayude a añadir información sobre su inventario en un solo lugar.
+* La distribuidora de libros podría realizar cambios en sus sistemas internos sin afectar a los clientes, siempre y cuando el comportamiento de la API fuera el mismo.
+* Con una API disponible de forma pública, los desarrolladores que trabajan para la distribuidora de libros, los vendedores o los terceros podrían desarrollar una aplicación para ayudar a los clientes a encontrar los libros que necesiten. Esto podría dar como resultado mayores ventas u otras oportunidades comerciales.
+
+# USO DE LAS API'S DE TERCEROS Y PROPIOS
 * Rapidez. El poder integrar en cuestión de segundos mapas, imágenes o servicios de autenticación en nuestras aplicaciones nos descarga de gran parte de la programación y nos permite centrarnos rápidamente en nuestro dominio de negocio.
 * Robustez. La mayoría de APIs y servicios más populares están tan sumamente extendidos que han sido probados en toda clase de situaciones de estrés, por lo que podremos asegurar que su respuesta será adecuada en la inmensa mayoría de los casos.
 * Imagen. Cuando los usuarios usan a menudo un buen servicio, lo acaban reconociendo, y el asociar nuestra imagen a la de un grande como Google, Facebook o Twitter, puede ayudarnos a contagiarnos de la buena percepción que los usuarios tienen de estos gigantes.
