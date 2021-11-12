@@ -34,5 +34,14 @@ SWAM (Simple WebSphere Authentication mechanism) define reglas sobre informació
 * [IBM i][AIX Solaris HP-UX Linux Windows]Autenticación de capa de mensajes
 Define la información de credenciales y envía esa información a través de la red para que un servidor receptor pueda interpretarla.
 
+# ¿Como funciona?
+* El usuario navega hasta el subdominio o alias de dominio personalizado.
+* Schoology derivará al usuario al URL de autenticación remota que se especifica a continuación (consulte Configurar autenticación remota).
+* El script que se ejecuta en el URL de autenticación remota verificará si el usuario ha iniciado sesión. Los usuarios que no han iniciado sesión primero deben autenticarse en el sitio remoto.
+* Al utilizar el token privado y la información de su base de datos, se crea un valor hash.
+* La información del usuario y el hash son ahora enviados a Schoology.
+* Schoology recibe los datos y genera un hash nuevo.
+* Si ambos valores hash coinciden, lo cual confirma que los datos no han sido modificados ni alterados, el usuario iniciará sesión en Schoology.
+
 ![image](https://user-images.githubusercontent.com/50559771/140591427-e9be395c-445b-4704-857c-4d611ba6f4b8.png)
 
