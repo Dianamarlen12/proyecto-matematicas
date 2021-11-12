@@ -31,4 +31,8 @@ UDDI es un estándar XML para describir, publicar y encontrar servicios web. Es 
 * El Web Service analiza el mensaje SOAP del request e invoca una operación particular en la aplicación para procesar el request. El resultado se escribe de nuevo en SOAP en forma de respuesta y se envía al cliente.
 * El cliente analiza el mensaje de respuesta SOAP y lo interpreta o genera un error si ha habido alguno.
 
+# Ventajas y desventajas de los servicios web
+La ventaja principal de los servicios web es que la comunicación no depende de una plataforma determinada, por lo que el cliente y el servidor apenas han de presentar rasgos en común para poder comunicarse. Para ello, la tecnología web service recurre a formatos estandarizados que interpretan todos los sistemas.
+
+Pero en estos formatos es donde encontramos una de las desventajas. Precisamente, XML es un formato más bien voluminoso que genera grandes paquetes de datos, lo que puede crear problemas en las conexiones de red lentas. Otra posibilidad que permite conectar a dos sistemas a través de Internet son las API web. Aunque, por lo general, son más rápidas, someten a cliente y servidor a especificaciones más concretas, con lo que la interoperabilidad se ve limitada.
 ![image](https://user-images.githubusercontent.com/50559771/140587526-5c7fe684-3232-4eca-bbd4-13c7187a057d.png)
